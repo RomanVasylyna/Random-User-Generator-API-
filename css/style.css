@@ -1,0 +1,118 @@
+body{
+margin: 0;
+padding: 0;
+background: rgb(223, 249, 255);
+}
+
+#dark{
+min-height: 500px;
+background: rgb(54, 54, 54);
+}
+
+#userPhoto{
+border-radius: 50%;
+border: 5px solid #fff;
+width: 150px;
+height: 150px;
+position: relative;
+top: 25px;
+margin-bottom: 70px;
+padding: 0;
+}
+
+
+.card-header{
+height: 130px;
+background: rgb(223, 249, 255);
+}
+
+.icon{
+color: rgb(116, 114, 116);
+}
+
+.icon:hover{
+color:  rgb(66, 193, 255);
+cursor: pointer;
+}
+
+.active{
+color:  rgb(66, 193, 255);
+}
+
+#userBtn{
+background-color: rgb(66, 193, 255);
+color: #fff;
+border-radius: 10px;
+padding: 3px 10px;
+letter-spacing: 2px;
+}
+
+#userBtn:hover{
+background-color: rgb(31, 45, 140);
+color: rgb(4, 89, 255);
+}
+
+.userP{
+font-size: 1.2rem;
+color: rgb(120, 129, 135)
+}
+
+@media (min-width: 576px) {
+  .card{
+  position: relative;
+  bottom: 180px;
+  left: 5px;
+  border-radius: 10px;
+  width: 100%;
+  }
+
+  #dark{
+  min-height: 250px;
+  background: rgb(54, 54, 54);
+  }
+
+  .container{
+  height: 280px;
+  }
+
+  #name, #surname{
+  font-size: 1.5rem;
+  }
+}
+
+
+@media (min-width: 768px) {
+  #name, #surname{
+  font-size: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .card{
+  position: relative;
+  bottom: 130px;
+  left: 130px;
+  border-radius: 10px;
+  width: 75%;
+  }
+
+  #name, #surname{
+  font-size: 2.3rem;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .card{
+  position: relative;
+  bottom: 170px;
+  left: 130px;
+  border-radius: 10px;
+  width: 75%;
+  }
+
+  #dark{
+  min-height: 250px;
+  background: rgb(54, 54, 54);
+  }
+}
